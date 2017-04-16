@@ -1,28 +1,3 @@
-function initMap() {
-  var uluru = {lat: -25.363, lng: 131.044};
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 4,
-    center: uluru
-  });
-  var marker = new google.maps.Marker({
-    position: uluru,
-    map: map
-  });
-}
-<h3>My Google Maps Demo</h3>
-<div id="map"></div>
-#map {
-  height: 400px;
-  width: 100%;
- }
-<!-- Replace the value of the key parameter with your own API key. -->
-<script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
-</script>
-Try it yourself
-
-Hover at top right of the code block to copy the code or open it in JSFiddle.
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -50,7 +25,7 @@ Hover at top right of the code block to copy the code or open it in JSFiddle.
       }
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDak3cOGxFa42V0qeGAjvSelJyjzl0cgDY&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj9g9QLjJqa4S2lwyrfAiEGdn2RFB7CGA&callback=initMap">
     </script>
   </body>
 </html>
